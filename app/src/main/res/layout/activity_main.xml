@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="frasedodia.cursoandroid.com.frasedodia.MainActivity"
+    android:background="#De7905"
+    android:gravity="center|top"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/botaofrasedodiaid"
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/texto_frase_dia"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/textofrasedodiaid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@android:color/background_light"
+        android:textSize="@dimen/texto_nova_frase"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" />
+</LinearLayout>
